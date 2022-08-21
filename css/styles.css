@@ -1,3 +1,20 @@
+:root {
+  /* Fonts */
+
+  /* Text colors */
+  --subtitle-col: #212121;
+  --txt-col: #757575;
+
+  /* Background colors */
+  --main-cl: #f5f5f5;
+
+  /* Other */
+  --accent-cl: #2196f3;
+}
+
+body {
+  color: var(--main-cl);
+}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -5,6 +22,7 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: #000000;
 }
 .logocolor {
@@ -14,15 +32,10 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  text-decoration: none;
+  color: var(--accent-cl);
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #2196f3;
-  font-size: 26;
-}
-.nav {
-}
+
 .nav-link {
   font-family: "Roboto";
   font-style: normal;
@@ -30,27 +43,36 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #212121;
 }
 
-/* Контактні дані */
-.contacts-mail-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-cl);
+  font-size: 26;
 }
 
-/.contacts-tel-link {
+/* Контактні дані */
+.mail-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--accent-cl);
+}
+
+.tel-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
   color: #757575;
 }
 
@@ -74,6 +96,7 @@
 .btn {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .btn-text {
   font-family: "Roboto";
@@ -85,11 +108,11 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--txt-col);
 }
 
 /* Наші переваги */
-.list-item {
+.list-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -117,7 +140,7 @@
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--subtitle-col);
 }
 
 /* Наша команда */
@@ -140,7 +163,7 @@
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--txt-col);
 }
 
 /* Підвал */
@@ -175,6 +198,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: #ffffff;
 }
 
@@ -185,5 +209,34 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.photo-subtitle {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.photo-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
 }
