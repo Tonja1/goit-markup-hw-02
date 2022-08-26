@@ -42,31 +42,22 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--subtitle-col);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-cl);
+}
+
+/* Контактні дані */
 .link:hover,
 .link:focus {
   color: var(--accent-cl);
 }
 
 .link {
-  text-decoration: none;
-}
-
-/* Контактні дані */
-.mail-link {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--accent-cl);
-}
-
-.tel-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -187,28 +178,29 @@ body {
   color: var(--txt-but);
 }
 
-.address-place {
-  font-style: normal;
+.address-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  list-style: none;
+  font-style: normal;
   color: var(--txt-but);
 }
 
-.address-items {
-  font-style: normal;
+.contacts-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .list {
-  list-style: none;
+list-style: none;
 }
 
 .link {
@@ -221,19 +213,18 @@ body {
 }
 
 .filtr {
-width: 130px;
-height: 38px;
-background: var(--bacgr-filtr);
+  width: 130px;
+  height: 38px;
+  background: var(--bacgr-filtr);
 }
 
 .filtr-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--subtitle-col);
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--subtitle-col);
 }
 .photo-subtitle {
   font-style: normal;
