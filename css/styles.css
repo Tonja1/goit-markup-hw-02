@@ -80,8 +80,6 @@ body {
 }
 
 .btn {
-  left: 692px;
-  top: 430px;
   background:var(--accent-cl);
   }
 
@@ -89,7 +87,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
