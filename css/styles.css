@@ -191,9 +191,8 @@ list-style: none;
   text-decoration: none;
 }
 
-.filtr:hover,
-.filtr:focus {
-  color: var(--accent-cl);
+.filtr:hover {
+color: var(--accent-cl);
 }
 
 .filtr {
