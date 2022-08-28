@@ -9,7 +9,7 @@
   /* Background colors */
   --main-cl: #f5f5f5;
   --backgr-filtr: #f5f4fa;
-  --backg-col: #2f303a;
+  --backgr-col: #2f303a;
 
   /* Other */
   --accent-cl: #2196f3;
@@ -67,7 +67,7 @@ body {
 
 /* Секція HERO */
 .section-hero {
-  background:var(--backg-col);
+  background:var(--backgr-col);
 }
 
 .slogan {
@@ -140,7 +140,7 @@ body {
 
 /* Підвал */
 .footer {
-  background:var(--backg-col);
+  background:var(--backgr-col);
 }
 
 .footer-logocolor {
@@ -192,19 +192,20 @@ list-style: none;
 }
 
 .filtr:hover {
-color: var(--accent-cl);
+color: var(--txt-but);
+background-color: var(--accent-cl);
 }
 
 .filtr {
-  background: var(--bacgr-filtr);
-}
-
-.filtr-text {
+  font-family: inherit;
+  background: var(--backgr-filtr);
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--subtitle-col);
+  cursor: pointer;
 }
+
 .photo-subtitle {
   font-size: 18px;
   line-height: 2;
